@@ -7,6 +7,7 @@
     --buttonsHover: rgba(34, 59, 105, 0.6);
     --btnGreen: white;
     --btnGreenHover: rgba(40, 76, 192, 0.6);
+
 }
 h2{
     text-align: center;
@@ -30,6 +31,7 @@ body {
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    margin-bottom: 70%;
 }
 
 
@@ -57,6 +59,12 @@ body {
     height: 304px;
     left: 1120px;
     top: 300px;
+    flex: 1;
+    padding: 10px;
+    min-width: 250px;
+    display: flex;
+    margin-left: auto;
+
 }
 
 #saveValues:hover{
@@ -86,26 +94,26 @@ textarea{
     position: absolute;
     width: 36px;
     display: inline-block;
-    height: 200px;
-    left: 1026px;
-    top: 280px;
+    height: 200px;    
+    top: 280px;   
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+
 }
 .ningun-mensaje{
-    width: 336px;
-    height: 58px;
+    width: 200px;  
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;        
-    color: rgb(32, 235, 13);
-    flex: none; 
-    align-self: stretch;   
+    font-weight: 600;
+    font-size: 22px;        
+    color: rgb(32, 235, 13); 
+          
 }
 .ingresa-texto{     
-   color: white;    
-   
+   color: white;      
    font-style: normal;
    font-weight: 700;
+   margin-right: auto;
    font-size: 15px;      
 }
 .muneco{
@@ -114,6 +122,13 @@ textarea{
     height: 304px;
     left: 1026px;
     top: 283px;
+  
+}
+div img{
+    
+   
+    margin-right: auto;
+   
 }
    
 
@@ -127,6 +142,8 @@ footer{
 .desarrollo{
     font-size: medium;
 }
+
+
 
 /*
 @media screen and (max-width:480px ){
